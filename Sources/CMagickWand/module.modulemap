@@ -1,0 +1,5 @@
+module CMagickWand [system] {
+	umbrella header "MagickWand.h"
+	link "MagickWand"
+	export *
+}

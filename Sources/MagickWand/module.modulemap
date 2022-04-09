@@ -1,6 +1,0 @@
-module MagickWand [system] {
-	header "/usr/local/Cellar/imagemagick/7.1.0-29/include/ImageMagick-7/MagickWand/MagickWand.h"
-	link "MagickWand-7.Q16"
-	link "MagickCore-7.Q16"
-	export *
-}

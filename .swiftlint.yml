@@ -1,0 +1,13 @@
+disabled_rules:
+  # conflict with swift-format
+  - opening_brace
+  - trailing_comma
+
+type_name:
+  min_length: 3 # only warning
+  max_length: # warning and error
+    warning: 40
+identifier_name:
+  min_length: 1
+# reporter type (xcode, json, csv, checkstyle, codeclimate, junit, html, emoji, sonarqube, markdown, github-actions-logging)
+# reporter: "github-actions-logging" 
