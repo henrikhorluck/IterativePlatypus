@@ -31,7 +31,7 @@ public func encode(image: URL, to: String) throws {
         MagickWandTerminus()
     }
 
-    var status = MagickReadImage(wand, image.relativeString)
+    var status = MagickReadImage(wand, image.relativePath)
     guard status != MagickFalse else {
         logger.error("Read Image failed")
         throw CMagickWandException(wand)
